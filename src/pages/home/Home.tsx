@@ -1,9 +1,7 @@
-import { Plus } from "lucide-react";
 import { useState } from "react";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import Todo from "../../components/Todo";
-import type { ProjectResponse, TeamMember } from "../../types/ProjectTypes";
-import { Link } from "react-router-dom";
+import type { ProjectResponse } from "../../types/ProjectTypes";
 import API_BASE_URL from "../../lib/api";
 import AuthHelper from "../../components/AuthHelper";
 import { EvervaultCard, Icon } from "../../components/ui/evervault-card";

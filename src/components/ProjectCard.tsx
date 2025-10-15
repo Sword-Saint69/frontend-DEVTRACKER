@@ -1,6 +1,6 @@
 import { Calendar, User, Users, Clock, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom";
-import type { ProjectResponse, TeamMember } from "../types/ProjectTypes";
+import type { ProjectResponse } from "../types/ProjectTypes";
 
 interface ProjectCardProps {
   project: ProjectResponse;

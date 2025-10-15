@@ -39,7 +39,7 @@ export default function OrganizationPage() {
     }
 
     try {
-      const response = await axios.post(api.organization.join, {
+      await axios.post(api.organization.join, {
         orgId: Number(orgId),
         passcode,
         userId: Number(userId),
